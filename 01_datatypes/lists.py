@@ -24,7 +24,13 @@ print(games_and_colors)
 one_to_ten = range(1, 11)
 print(one_to_ten)
 
+print(games.count('Minecraft'))
+
 games.remove('Minecraft')
 print(games)
+
+print(games.count('Minecraft'))
+
+print(games.index('Terraria'))
 
 
