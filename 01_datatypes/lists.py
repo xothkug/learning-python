@@ -20,3 +20,6 @@ print(len(colors))
 games_and_colors = games + colors
 
 print(games_and_colors)
+
+one_to_ten = range(1, 11)
+print(one_to_ten)
