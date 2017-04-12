@@ -1,5 +1,6 @@
 games = ['Minecraft', 'Age Of Empires', 'Terraria', 'Agario']
 colors = ['red', 'green', 'blue', 'yellow']
+numbers = [10, 20, 50]
 
 print(games[0])
 print(games[-1])
@@ -16,5 +17,6 @@ print(colors)
 
 print(len(colors))
 
+games_and_colors = games + colors
 
-
+print(games_and_colors)
