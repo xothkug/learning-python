@@ -23,3 +23,8 @@ print(games_and_colors)
 
 one_to_ten = range(1, 11)
 print(one_to_ten)
+
+games.remove('Minecraft')
+print(games)
+
+
