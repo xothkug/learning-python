@@ -14,8 +14,4 @@ canvas.pack()
 rect = canvas.create_rectangle(50,50,100,100)
 window.update()
 
-while True:
-    canvas.move(rect,0.01,0)
-    window.update()
-
 window.mainloop()
