@@ -1,7 +1,7 @@
 import turtle
 
 def onClick(x,y):
-    turtle.fd(10)
+    vierkant()
 
 def vierkant():
     for i in range(4):
@@ -14,6 +14,7 @@ def vierkant():
 turtle.speed(0)
 turtle.shape("turtle")
 turtle.bgcolor("orange")
+turtle.colormode(255)
 
 turtle.home()
 turtle.penup()
@@ -27,7 +28,7 @@ vierkant()
 turtle.write("tekst")
 
 turtle.pensize(1)
-turtle.pencolor((1, 0, 0))
+turtle.pencolor((255, 0, 0))
 vierkant()
 
 turtle.write("tekst")
@@ -38,9 +39,7 @@ vierkant()
 turtle.end_fill()
 
 turtle.circle(10)
-turtle.circle(120, 180)
-
-turtle.write("tekst")
+turtle.circle(120, 90)
 
 turtle.onclick(onClick)
 
