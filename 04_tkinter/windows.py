@@ -1,4 +1,5 @@
 from tkinter import *
+import time
 
 window = Tk()
 
@@ -15,5 +16,10 @@ canvas.pack()
 
 rect = canvas.create_rectangle(50, 50, 100, 100)
 window.update()
+
+while True:
+    canvas.move(rect, 1, 0)
+    window.update()
+    time.sleep(0.01)
 
 window.mainloop()
