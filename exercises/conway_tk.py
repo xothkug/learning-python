@@ -113,6 +113,9 @@ def start_action():
 
 
 def clear_action():
+    global step_nr
+    stop_action()
+    step_nr = 1
     empty_map()
     draw()
 
