@@ -7,3 +7,7 @@ print(game[4:])
 print(game[:4])
 print(game[4:] + game[:4])
 print(game + ' is a game')  # string concat
+
+print(game[-1])
+print(game[-2])
+print(game[-3:])
